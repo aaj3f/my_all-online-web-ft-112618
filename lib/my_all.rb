@@ -9,4 +9,8 @@ def my_all?(collection)
   end
 
   !(boolean_array.include?(false))
+
+  binding.pry
 end
+
+
