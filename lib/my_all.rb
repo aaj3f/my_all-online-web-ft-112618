@@ -8,7 +8,7 @@ def my_all?(collection)
     i += 1
   end
 
-  !(boolean_array.include?(false))
+  puts !(boolean_array.include?(false))
 
   binding.pry
 end
