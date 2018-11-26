@@ -8,9 +8,9 @@ def my_all?(collection)
     i += 1
   end
 
-  puts !(boolean_array.include?(false))
+  !(boolean_array.include?(false))
 
-  binding.pry
+  # binding.pry
 end
 
 my_all?([1, 2, 3]) { |x| x < 2 }
